@@ -1,8 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700italic,700);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Princess+Sofia);
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/bg2014-3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  background-color: #222222;
+  color: #F2F3F4;
+}
+
+.navbar .navbar-brand{
+  font-family: 'Princess Sofia', cursive;
+  font-size: 220%;
+  color: #F2F3F4;
+  
+}
+
+#head {
+  color: #666666;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#main {
+  color: #F2F3F4;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  width: 100%;
+  font-size: 200%
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+}
+
+li {
+  padding: 5px;
+}
+
+#stateshowgirls{
+  margin-right: 5%;
+}
+#stateshowboys{
+  margin-left: 5%;
+}
+
+#stateshowgirls a{
+  padding: 5px;
+  color: pink;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#stateshowboys a{
+  padding: 5px;
+  color: #CCFFFF;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.stateshow a:hover{
+  opacity: .5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stateshow{
+  display: inline-block;
 }
